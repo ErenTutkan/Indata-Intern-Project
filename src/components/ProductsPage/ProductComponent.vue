@@ -1,8 +1,8 @@
 <template>
-  <q-card class="my-card">
+  <q-card class="my-card col">
     <q-card-section>
       <div class="text-h6">{{ item.name }}</div>
-      <div class="text-subtitle2">{{ item.amount }}</div>
+      <div class="text-subtitle2">{{ item.price }}</div>
     </q-card-section>
   </q-card>
 </template>
